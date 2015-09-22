@@ -1,0 +1,12 @@
+<Files *.php>
+    # Include constants in every PHP file
+    php_value auto_prepend_file /f5/grooveyfm/protected/includes/constants.inc.php
+    php_flag html_errors off
+    php_value error_reporting 8191
+</Files>
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]*)$ /index.php?file=$1

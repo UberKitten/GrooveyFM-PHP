@@ -1,0 +1,18 @@
+Parse Sources cron starting at Sun, 03 Jun 2012 16:53:40 +0000
+Processing daily-only sources
+Starting parse of source http://www.kvrk.com/7sunlog.html
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 168
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Fwww.kvrk.com%252F7sunlog.html&stationid=3&callsign=kvrk&type=kvrkpowerfm
+Starting parse of source http://truthseekersradio.org/archives/category/current
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 195
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Ftruthseekersradio.org%252Farchives%252Fcategory%252Fcurrent&stationid=5&callsign=kpfkts&type=kpfkts

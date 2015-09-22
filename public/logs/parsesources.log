@@ -1,0 +1,65 @@
+Parse Sources cron starting at Mon, 25 Mar 2013 02:47:57 +0000
+Starting parse of source http://www.mediabase.com/whatsong/whatsong.asp?var_s=075068071069045070077
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 220
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Fwww.mediabase.com%252Fwhatsong%252Fwhatsong.asp%253Fvar_s%253D075068071069045070077&stationid=1&callsign=kdge&type=mediabase
+Starting parse of source http://www.mediabase.com/whatsong/whatsong.asp?var_s=075072075083045070077
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 220
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Fwww.mediabase.com%252Fwhatsong%252Fwhatsong.asp%253Fvar_s%253D075072075083045070077&stationid=2&callsign=khks&type=mediabase
+Starting parse of source http://api.twitter.com/1/statuses/user_timeline.json?screen_name=wvumplaylist&count=10&trim_user=1&include_rts=0&include_entities=0&exclude_replies=1
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 334
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Fapi.twitter.com%252F1%252Fstatuses%252Fuser_timeline.json%253Fscreen_name%253Dwvumplaylist%2526count%253D10%2526trim_user%253D1%2526include_rts%253D0%2526include_entities%253D0%2526exclude_replies%253D1&stationid=4&callsign=wvum&type=wvum
+Starting parse of source http://www.mediabase.com/whatsong/whatsong.asp?var_s=087082087068045070077
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 220
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Fwww.mediabase.com%252Fwhatsong%252Fwhatsong.asp%253Fvar_s%253D087082087068045070077&stationid=6&callsign=wrwd&type=mediabase
+Starting parse of source http://www.mediabase.com/whatsong/whatsong.asp?var_s=087088082084045070077
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 220
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Fwww.mediabase.com%252Fwhatsong%252Fwhatsong.asp%253Fvar_s%253D087088082084045070077&stationid=7&callsign=wxrt&type=mediabase
+Starting parse of source http://www.mediabase.com/whatsong/whatsong.asp?var_s=087074074075045070077
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 220
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Fwww.mediabase.com%252Fwhatsong%252Fwhatsong.asp%253Fvar_s%253D087074074075045070077&stationid=8&callsign=wjjk&type=mediabase
+Starting parse of source http://www.mediabase.com/whatsong/whatsong.asp?var_s=087088073083045070077
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 220
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Fwww.mediabase.com%252Fwhatsong%252Fwhatsong.asp%253Fvar_s%253D087088073083045070077&stationid=9&callsign=wxis&type=mediabase
+Starting parse of source http://feeds.kcrw.com/KcrwLiveChannelTracklist-Last10SongsPlayed
+POST /cron/parsesource.php HTTP/1.1
+Host: grooveyfm.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 193
+Connection: Close
+
+password=hY6GPrAH7aFr9mONJkUnF1U5e9INjW5tDxstThFLnHhCmz3gt5fMvPGrRu0lejG&url=http%253A%252F%252Ffeeds.kcrw.com%252FKcrwLiveChannelTracklist-Last10SongsPlayed&stationid=10&callsign=kcrw&type=rss

@@ -1,0 +1,35 @@
+<?php
+
+function curl_post_async($url, $params)
+{
+    foreach ($params as $key => &$val) {
+      if (is_array($val)) $val = implode(',', $val);
+        $post_params[] = $key.'='.urlencode($val);
+    }
+    $post_string = implode('&', $post_params);
+
+    $parts=parse_url($url);
+
+    $fp = fsockopen($parts['host'], 
+        isset($parts['port'])?$parts['port']:80, 
+        $errno, $errstr, 30);
+
+    if (!$fp) {
+	echo $errno, ' ', $errstr, PHP_EOL;
+	return;
+    }
+
+    $out = "POST ".$parts['path']." HTTP/1.1\r\n";
+    $out.= "Host: ".$parts['host']."\r\n";
+    $out.= "Content-Type: application/x-www-form-urlencoded\r\n";
+    $out.= "Content-Length: ".strlen($post_string)."\r\n";
+    $out.= "Connection: Close\r\n\r\n";
+    if (isset($post_string)) $out.= $post_string;
+
+    echo $out, PHP_EOL;
+
+    fwrite($fp, $out);
+    fclose($fp);
+}
+
+?>
